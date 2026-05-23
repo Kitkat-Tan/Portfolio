@@ -25,18 +25,7 @@ body {
     transition: background 0.3s;
 }
 
-#theme-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: none;
-    border: 1px solid var(--accent);
-    color: var(--accent);
-    cursor: pointer;
-    padding: 8px 15px;
-    border-radius: 5px;
-    z-index: 2000;
-}
+
 
 
 #loading-screen {
