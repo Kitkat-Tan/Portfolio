@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katrina's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="loading-screen">
+        <div class="walking-capy">🦫</div>
+        <div class="loader-bar"><div class="progress"></div></div>
+        <p>Loading Portfolio...</p>
+    </div>
+
+    <header>
+        <h1 class="animated-name" id="nameContainer"></h1>
+        <nav class="nav-bar">
+            <a onclick="showPage('home')">HOME</a>
+            <a onclick="showPage('intro')">INTRO</a>
+            <a onclick="showPage('about')">ABOUT</a>
+            <a onclick="showPage('contact')">CONTACT</a>
+            <button id="theme-toggle" onclick="toggleTheme()">DARK/LIGHT</button>
+        </nav>
+    </header>
+
+    <div id="contentArea" class="main-card"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
