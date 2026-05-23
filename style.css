@@ -38,7 +38,6 @@ body {
     z-index: 2000;
 }
 
-/* Loading Screen, Nav, Cards, and other styles remain the same as before... */
 #loading-screen {
     position: fixed;
     top: 0;
@@ -107,6 +106,7 @@ body {
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 1px;
+        transition: color 0.3s;
     }
 
 .main-card {
@@ -116,6 +116,18 @@ body {
     padding: 60px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .profile-img {
@@ -124,4 +136,16 @@ body {
     object-fit: cover;
     border-radius: 10px;
     border: 4px solid var(--accent);
+}
+
+.animated-name span {
+    display: inline-block;
+    animation: reveal 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes reveal {
+    to {
+        opacity: 1;
+    }
 }

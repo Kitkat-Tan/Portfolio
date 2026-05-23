@@ -15,9 +15,9 @@ window.addEventListener('load', () => {
 
 const pages = {
     home: `<h1>Welcome</h1><p>From Sibugay to Del Norte, I am Katrina Gabrielle Napigkit. Welcome to my professional portfolio.</p>`,
-    intro: `<div class="intro-header"><img src="kat.jpg" alt="Profile" class="profile-img"><p class="subtitle">"From Sibugay to Del Norte, A BSIT student reporting for duty.."</p></div><h2>INTRO</h2><p>My name is Katrina Gabrielle Napigkit, a BSIT 2 student...</p>`,
-    about: `<h2>ABOUT</h2><ul><li><strong>Technical Skills:</strong> C#, HTML, CSS, JS, SQL</li></ul>`,
-    contact: `<h2>CONTACT</h2><input type="text" placeholder="Name">...`
+    intro: `<div class="intro-header"><img src="kat.jpg" alt="Profile" class="profile-img"><p class="subtitle">"From Sibugay to Del Norte, A BSIT student reporting for duty.."</p></div><h2>INTRO</h2><p>My name is Katrina Gabrielle Napigkit, a BSIT 2 student. My tech journey started because of someone. I then grew fond of and interested in system architecture and game development.</p>`,
+    about: `<h2>ABOUT</h2><ul><li><strong>Skills:</strong> C#, HTML, CSS, JS, SQL</li><li><strong>Passions:</strong> Bioinformatics, Data Visualization</li></ul>`,
+    contact: `<h2>CONTACT</h2><label>NAME</label><input type="text"><label>EMAIL</label><input type="email"><label>MESSAGE</label><textarea rows="4"></textarea><button>Send Message →</button>`
 };
 
 function showPage(page) {
